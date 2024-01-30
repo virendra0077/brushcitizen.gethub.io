@@ -48,7 +48,7 @@ display: flex;
 }
 .first {
     display: flex;
-    background: url(/img/couplewall2.jpg);
+    background: url(couplewall2.jpg);
     background-size: cover;
 height: 500px;
     
