@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" class="css">
+    <link rel="stylesheet" href="/css/style.css" class="css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Citizen Brush</title>
 </head>
 
 <body>
-    <div>
-        <img class="clogo" src="citizenLogo.png" alt="logo" >
+    <div class="logos">
+        <img class="clogo" src="/img/citizenLogo.png" alt="logo" >
     </div>
-    <nav class="navbar">
+    <nav class="navbar .h-nav-resp">
         
             <ul class="nav-list v-class-resp">
              
@@ -21,6 +21,11 @@
                 <li> <a href="#serivces">PRODUCTS </a></li>
                 <li> <a href="#contact us">CONTACT US </a></li>
             </ul>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
     </nav>
     <div class="first"> 
         <div class="inner">
@@ -35,31 +40,27 @@
 
     <div class="category">
         <ul class="cat-list">
-            <li>  <a href="#brush"> Paint Brush</a>   </li>
-            <li>  <a href="#roller"> Paint Roller </a> </li>
-            <li>  <a href="#art"> Art Brush </a>  </li>
+            <li class="word">  <a  href="#brush"> Paint <br> Brush</a>   </li>
+            <li> <img class="bphoto" src="/img/onlybrush.jpg"></li>
+            <li class="word">  <a  href="#roller"> Paint <br> Roller </a> </li>
+            <li> <img class="bphoto" src="/img/onlyroller - Copy.jpg"></li>
+            <li class="word" >  <a  href="#art"> Art <br> Brush </a>  </li>
+            <li> <img class="bphoto" src="/img/art.jpg"> </li>
+ 
         </ul>
     </div>
-<div class="secound">
-    <ul class="product">
-        <li> <img class="bphoto" src="onlybrush.jpg"></li>
-        <li> <img class="bphoto" src="onlyroller.jpg"> </li>
-        <li> <img class="bphoto" src="art.jpg"> </li>
 
-
-    </ul>
-
-</div>
 
 <form id="contact_form"  class="contact-form"> 
     <div class="form-group">
         <h4 class="beintouch">
             BE IN TOUCH WITH US:
           </h4>
+          <div class="leftside">
                         <input  class="form-control" value="" placeholder="Enter your e-mail" >
                         <button type="submit" class="btn footer_subscribe_btn" >JOIN US</button>
                 
-                     
+          </div>
                       <div class="tt-col-right">
                         <div class="tt-col-item">
                           <ul class="tt-social-icon">
@@ -77,5 +78,9 @@
 <footer>
     <p class="text-footer">Copyright &copy; 2010 www.citizenbrush.com - All Right Resevered</p>
 </footer>
+
+<script src="/resp.js"> </script>
+
+</body>
 
 </html> 
