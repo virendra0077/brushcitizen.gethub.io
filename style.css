@@ -264,6 +264,7 @@ display: flex;
 .cat-list {
     flex-direction: column;
     text-align: center;
+     margin-left: 0px;
 }
     .contact-form {
         flex-direction: column;
@@ -305,7 +306,7 @@ display: flex;
     text-align: center;
     
 }
-.cat-list {
+.cat-list li {
     margin-left: 0px;
 }
 
