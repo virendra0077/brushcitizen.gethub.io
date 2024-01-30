@@ -309,6 +309,12 @@ display: flex;
 }
 .cat-list li {
     margin-left: 0px;
+    padding-bottom: 10px;
 }
-
+.word {
+    padding-top: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
 }
